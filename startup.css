@@ -26,6 +26,12 @@ img {
 	max-width : 100%;
 }
 
+.mainlogo {
+	height: 32px;
+	padding-bottom: -8rem 0;
+	padding-top: -8rem 0;
+}
+
 .blockquote {
 	font-size : 1.6rem;
 	color : # 333;
@@ -110,5 +116,9 @@ img {
 	.feature-content .row {
 		display : flex;
 		align-items : center;
+	}
+
+	img {
+		display : content;
 	}
 }
