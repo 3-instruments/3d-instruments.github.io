@@ -24,6 +24,7 @@ h6 {
 
 img {
 	max-width : 100%;
+	height: auto;
 }
 
 .mainlogo {
@@ -116,9 +117,5 @@ img {
 	.feature-content .row {
 		display : flex;
 		align-items : center;
-	}
-
-	img {
-		display : content;
 	}
 }
