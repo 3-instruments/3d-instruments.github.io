@@ -11,6 +11,12 @@ body {
 	color : #6c6f73;
 }
 
+/*Debug Google Chrome Responsive Img*/
+.feature-content .row {
+	display : flex;
+	align-items : center;
+}
+
 h1,h2,h3,h4,h5 {
 	color : #333;
 }
@@ -22,9 +28,13 @@ h6 {
 	letter-spacing : 0.1rem;
 }
 
+.display-4 {
+	font-size: 3rem;
+}
+
 img {
-	max-width : 100%;
 	height: auto;
+	max-width : 100%;
 }
 
 .mainlogo {
@@ -112,14 +122,6 @@ img {
 }
 
 /* Media Queries */
-@media screen and (min-width : 991px){
-	
-	.feature-content .row {
-		display : flex;
-		align-items : center;
-	}
-}
-
 @media screen and (min-width : 576px){
 	.display-4 {
 		font-size: 4.5rem;
@@ -127,3 +129,12 @@ img {
 		line-height: 1.1;
 	}
 }
+
+/********************Useless Since Google Chrome need that to be Responsive *******************/
+/*@media screen and (min-width : 991px){
+	
+	.feature-content .row {
+		display : flex;
+		align-items : center;
+	}
+}*/
